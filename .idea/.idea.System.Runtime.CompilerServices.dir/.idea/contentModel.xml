@@ -5,17 +5,20 @@
       <e p=".gitignore" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="IsExternalInit.cs" t="Include" />
+      <e p="IsExternalInit.System.Runtime.CompilerServices.csproj" t="IncludeRecursive" />
       <e p="LICENSE" t="Include" />
+      <e p="nupkg" t="Include">
+        <e p="System.Runtime.CompilerServices.IsExternalInit.1.0.0.nupkg" t="Include" />
+      </e>
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
           <e p="netstandard2.1" t="Include">
-            <e p="System.Runtime.CompilerServices.AssemblyInfo.cs" t="Include" />
+            <e p="IsExternalInit.System.Runtime.CompilerServices.AssemblyInfo.cs" t="Include" />
           </e>
         </e>
       </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="README.md" t="Include" />
-      <e p="System.Runtime.CompilerServices.csproj" t="IncludeRecursive" />
     </e>
     <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
     <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
